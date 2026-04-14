@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Pagina-1" id="7oK8bG_8oiEV0-exiC68">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MNbCIVfmrniAKZFTjmID-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Start applicatie" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-10" edge="1" parent="1" source="MNbCIVfmrniAKZFTjmID-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MNbCIVfmrniAKZFTjmID-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1. Reservering plaatsen" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-8" edge="1" parent="1" source="MNbCIVfmrniAKZFTjmID-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MNbCIVfmrniAKZFTjmID-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2. reservering opzoeken" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-6" edge="1" parent="1" source="MNbCIVfmrniAKZFTjmID-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MNbCIVfmrniAKZFTjmID-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="3. reserveringen exporteren" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-5" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Exporeert reserveringen in een JSON bestand" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-17" edge="1" parent="1" source="MNbCIVfmrniAKZFTjmID-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MNbCIVfmrniAKZFTjmID-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stel vraag om welk gereedschap het gaat" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-12" edge="1" parent="1" source="MNbCIVfmrniAKZFTjmID-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MNbCIVfmrniAKZFTjmID-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Formulier met de volgende vragen:&lt;div&gt;&amp;nbsp;-Serienummer&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;-&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Gereedschap&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Voornaam en achternaam medewerker&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Startdatum reservering&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Einddatum reservering&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="160" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-19" edge="1" parent="1" source="MNbCIVfmrniAKZFTjmID-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MNbCIVfmrniAKZFTjmID-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-11" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="gebruiker klikt op reservering plaatsen" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-16" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Geeft een lijst met alle reserveringen van gezochte reservering" vertex="1">
+          <mxGeometry height="60" width="120" x="560" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-23" edge="1" parent="1" source="MNbCIVfmrniAKZFTjmID-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="MNbCIVfmrniAKZFTjmID-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-26" connectable="0" parent="MNbCIVfmrniAKZFTjmID-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ja" vertex="1">
+          <mxGeometry relative="1" x="0.0167" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-28" edge="1" parent="1" source="MNbCIVfmrniAKZFTjmID-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MNbCIVfmrniAKZFTjmID-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-29" connectable="0" parent="MNbCIVfmrniAKZFTjmID-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Nee" vertex="1">
+          <mxGeometry relative="1" x="-0.0545" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-18" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Is gereedschap al gereserveerd?" vertex="1">
+          <mxGeometry height="60" width="120" x="770" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-22" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Geeft melding dat gereedschap al gereserveerd is" vertex="1">
+          <mxGeometry height="60" width="120" x="960" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MNbCIVfmrniAKZFTjmID-27" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Geeft bevestiging dat reservering is geplaatst" vertex="1">
+          <mxGeometry height="60" width="120" x="960" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

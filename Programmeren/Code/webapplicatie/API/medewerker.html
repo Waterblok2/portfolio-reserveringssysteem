@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Kale API Test</h2>
+    <button onclick="haalDataOp()">Toon JSON resultaat</button>
+
+    <pre id="rauwe-data"></pre>
+
+    <script>
+        function haalDataOp() {
+            fetch('http://127.0.0.1:5000/medewerker')
+                .then(response => response.json())
+                .then(data => {
+                    // We dumpen de JSON direct op het scherm als platte tekst
+                    // De 'null, 2' zorgt ervoor dat het netjes inspringt
+                    document.getElementById('rauwe-data').innerText = JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    document.getElementById('rauwe-data').innerText = "Fout: " + error;
+                });
+        }
+    </script>
+
+</body>
+</html>

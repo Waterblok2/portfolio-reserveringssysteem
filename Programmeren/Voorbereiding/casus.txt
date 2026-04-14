@@ -1,0 +1,2 @@
+Casus:
+een applicatie dat een reserveringssysteem is voor een bouwbedrijf waar werknemers reserveringen kunnen plaatsen voor bepaald gereedschap dat het bedrijf heeft.
